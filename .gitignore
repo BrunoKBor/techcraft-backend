@@ -1,0 +1,63 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs & Debug files
+logs/
+*.log
+debug.log
+error.log
+output.log
+logfile.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Build files
+dist/
+build/
+.cache/
+.tmp/
+
+# IDE & Editor Files
+.idea/
+*.iml
+
+# Git related
+.gitignore
+
+# Frontend dependencies
+techcraft-frontend/node_modules/
+techcraft-frontend/package-lock.json
+
+# Compiled & Generated Files
+*.gz
+*.zip
+*.tar
+*.tgz
+
+# Backups
+*.bak
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
